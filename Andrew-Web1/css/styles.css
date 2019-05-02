@@ -73,12 +73,28 @@ header {
   header span {
     color: #1CBAC8; }
   header i {
-    margin-left: 178px;
+    margin-left: 170px;
     color: #1CBAC8; }
 
 /* ================================
         Footer css
 ================================ */
+footer {
+  text-align: center;
+  color: #000;
+  background-color: #01C2D3;
+  padding: 51px 0; }
+  footer p {
+    padding-bottom: 26px; }
+  footer i {
+    display: flex;
+    justify-content: center;
+    padding-right: 21px; }
+  footer span {
+    color: #fff; }
+  footer #final {
+    padding-right: 0; }
+
 /* ================================
         Heroes css
 ================================ */
@@ -98,15 +114,68 @@ header {
 #hero-2 {
   color: #000;
   text-align: left;
-  text-align: center; }
+  text-align: center;
+  margin-top: 55px; }
   #hero-2 #hero-2-image {
     width: 100%; }
+  #hero-2 h2 {
+    font-size: 25px;
+    font-weight: 600; }
   #hero-2 h1 {
-    color: #1CBAC8; }
+    color: #1CBAC8;
+    padding-bottom: 50px;
+    font-size: 28px; }
   #hero-2 ul li {
     font-weight: 400;
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 50px; }
+    #hero-2 ul li h1 {
+      padding-bottom: 0;
+      font-size: 22px;
+      font-weight: 400; }
+    #hero-2 ul li p {
+      padding-top: 25px; }
     #hero-2 ul li img {
       margin-right: 19px; }
-    #hero-2 ul li #bold-hero p {
-      font-weight: 700; }
+
+#bold-hero p {
+  font-weight: 700; }
+
+/* ================================
+        Skills css
+================================ */
+#skills {
+  background-color: #222222;
+  color: #fff;
+  font-weight: 700; }
+  #skills h2 {
+    padding: 55px 0 32px; }
+  #skills p {
+    padding-bottom: 49px; }
+  #skills ul {
+    margin-bottom: 49px; }
+    #skills ul li h3 {
+      display: inline; }
+    #skills ul li h4 {
+      display: inline;
+      text-align: right; }
+    #skills ul li .background-bar {
+      background-color: #000;
+      height: 9px;
+      margin-top: 8px; }
+      #skills ul li .background-bar #bar-62 {
+        background-color: #1CBAC8;
+        height: 9px;
+        width: 62%; }
+      #skills ul li .background-bar #bar-90 {
+        background-color: #1CBAC8;
+        height: 9px;
+        width: 90%; }
+      #skills ul li .background-bar #bar-95 {
+        background-color: #1CBAC8;
+        height: 9px;
+        width: 95%; }
+
+/* ================================
+        Gallery css
+================================ */

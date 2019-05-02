@@ -1,3 +1,27 @@
 /* ================================
         Footer css
 ================================ */
+footer{
+  text-align: center;
+  color: $black;
+  background-color: $backBlue;
+  padding: 51px 0;
+
+  p{
+    padding-bottom: 26px;
+  }
+
+  i{
+    display: flex;
+    justify-content: center;
+    padding-right: 21px
+  }
+
+  span{
+    color: $white;
+  }
+
+  #final{
+    padding-right: 0;
+  }
+}

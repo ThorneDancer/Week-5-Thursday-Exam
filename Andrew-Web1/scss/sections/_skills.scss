@@ -1,0 +1,55 @@
+/* ================================
+        Skills css
+================================ */
+#skills {
+  background-color: $darkgrey;
+  color: $white;
+  font-weight: 700;
+
+  h2 {
+    padding: 55px 0 32px;
+  }
+
+  p {
+    padding-bottom: 49px;
+  }
+
+  ul {
+    margin-bottom: 49px;
+
+    li {
+      h3 {
+        display: inline;
+      }
+
+      h4 {
+        display: inline;
+        text-align: right;
+      }
+
+      .background-bar {
+        background-color: $black;
+        height: 9px;
+        margin-top: 8px;
+
+        #bar-62 {
+          background-color: $lightblue;
+          height: 9px;
+          width: 62%;
+        }
+
+        #bar-90 {
+          background-color: $lightblue;
+          height: 9px;
+          width: 90%;
+        }
+
+        #bar-95 {
+          background-color: $lightblue;
+          height: 9px;
+          width: 95%;
+        }
+      }
+    }
+  }
+}
