@@ -1,3 +1,22 @@
 /* ================================
         Header css
 ================================ */
+header{
+  background-color: $white;
+  padding: 12px 0 21px;
+  display: flex;
+  justify-content: flex-start;
+
+  h1{
+    font-size: rem-calc(32);
+  }
+
+  span{
+    color: $lightblue;
+  }
+
+  i{
+    margin-left: 178px;
+    color: $lightblue;
+  }
+}

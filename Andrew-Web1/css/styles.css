@@ -18,6 +18,13 @@ a {
   display: inline-block;
   transition: 0.25s; }
 
+.content-grid {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". content ."; }
+  .content-grid .content-grid-item {
+    grid-area: content; }
+
 /* ================================
         Normalize css
 ================================ */
@@ -26,6 +33,15 @@ a {
 ================================ */
 body {
   font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  font-weight: 700; }
+
+h2 {
+  font-weight: 400; }
+
+h3 {
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -47,6 +63,50 @@ p {
 /* ================================
         Header css
 ================================ */
+header {
+  background-color: #fff;
+  padding: 12px 0 21px;
+  display: flex;
+  justify-content: flex-start; }
+  header h1 {
+    font-size: rem-calc(32); }
+  header span {
+    color: #1CBAC8; }
+  header i {
+    margin-left: 178px;
+    color: #1CBAC8; }
+
 /* ================================
         Footer css
 ================================ */
+/* ================================
+        Heroes css
+================================ */
+#hero-1 {
+  color: #fff;
+  text-align: center;
+  background-image: url("../img/hero/hero-1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 288px 0 86px; }
+  #hero-1 h1 {
+    font-size: 43px; }
+  #hero-1 h2 {
+    color: #1CBAC8;
+    font-size: 21px; }
+
+#hero-2 {
+  color: #000;
+  text-align: left;
+  text-align: center; }
+  #hero-2 #hero-2-image {
+    width: 100%; }
+  #hero-2 h1 {
+    color: #1CBAC8; }
+  #hero-2 ul li {
+    font-weight: 400;
+    text-align: left; }
+    #hero-2 ul li img {
+      margin-right: 19px; }
+    #hero-2 ul li #bold-hero p {
+      font-weight: 700; }

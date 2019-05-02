@@ -15,3 +15,13 @@ a{
   display: inline-block;
   transition: 0.25s;
 }
+
+.content-grid{
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". content .";
+
+  .content-grid-item{
+    grid-area: content;
+  }
+}
